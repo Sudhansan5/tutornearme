@@ -1,0 +1,52 @@
+# Java / Maven
+/backend/target/
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+/backend/*.log
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+
+# Node / Frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.vite/
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.*.local
+/frontend/*.log
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+
+# IDE
+/.idea/
+/.vscode/
+/*.swp
+/*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+/coverage/
+/backend/target/site/jacoco/
+/frontend/coverage/
+
+# Misc
+*.tmp
+*.temp
